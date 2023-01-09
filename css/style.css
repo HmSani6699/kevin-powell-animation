@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+
+}
+
+.streamer {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    position: relative;
+    overflow: hidden;
+}
+
+.tittle {
+    position: absolute;
+    white-space: nowrap;
+    color: chocolate;
+    animation: imgTitle 10s infinite;
+}
+
+@keyframes imgTitle {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translate(100%);
+    }
+}
